@@ -1,10 +1,9 @@
-/* Variabel Warna - Mudah diubah untuk Versi 2 */
 :root {
-    --bg-body: #0f172a;
+    --bg-body: #0e204b;
     --bg-card: #1e293b;
     --text-main: #f8fafc;
     --text-muted: #94a3b8;
-    --accent: #14b8a6;       /* Warna Aksen Utama (Teal) */
+    --accent: #14b8a6;       
     --accent-hover: #0d9488;
 }
 
@@ -24,7 +23,7 @@ body {
     min-height: 100vh;
 }
 
-/* Navbar Samping / Atas Terpisah */
+
 .navbar {
     background-color: var(--bg-card);
     border-bottom: 2px solid var(--accent);
@@ -64,7 +63,7 @@ body {
     font-weight: 600;
 }
 
-/* Kontainer Utama */
+
 .wrapper {
     max-width: 1000px;
     width: 90%;
@@ -84,7 +83,6 @@ body {
     margin-bottom: 30px;
 }
 
-/* Layout Grid Beranda */
 .hero-grid {
     display: grid;
     grid-template-columns: 260px 1fr;
@@ -128,7 +126,6 @@ body {
     color: var(--text-main);
 }
 
-/* Grid Kartu untuk Materi & Portofolio */
 .grid-2 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
